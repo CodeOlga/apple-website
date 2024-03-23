@@ -19,7 +19,8 @@ body {
 }
 
 canvas {
-  touch-action: auto;
+  touch-action: none;
+  overflow: scroll;
 }
 
 .screen-max-width {
