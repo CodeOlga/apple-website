@@ -17,11 +17,12 @@ body {
   border-color: #3b3b3b;
   user-select: none;
 }
-/* 
+
 canvas {
+  /* touch-action: none; */
   touch-action: auto !important;
-  overflow: scroll;
-} */
+  /* overflow: scroll; */
+}
 
 .screen-max-width {
   margin-inline-start: auto;
