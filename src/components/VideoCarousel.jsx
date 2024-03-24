@@ -187,7 +187,7 @@ const VideoCarousel = () => {
 
               <div className="absolute top-12 left-[5%] z-10">
                 {list.textLists.map((text, i) => (
-                  <p key={i} className="md:text-2xl text-xl font-medium">{text}</p>
+                  <p key={i} className="md:text-2xl text-lg font-medium">{text}</p>
                 ))}
               </div>
             </div>          
