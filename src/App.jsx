@@ -1,6 +1,6 @@
 import Hero from "./components/Hero"
 import Highlights from "./components/Highlights"
-// import Navbar from "./components/Navbar"
+import Navbar from "./components/Navbar"
 import Model from "./components/Model"
 import Features from "./components/Features"
 import HowItWorks from "./components/HowItWorks"
@@ -10,7 +10,7 @@ const App = () => {
 
   return (
     <main className="bg-black">
-      {/* <Navbar/> */}
+      <Navbar/>
       <Hero/>
       <Highlights />
       <Model />
